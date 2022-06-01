@@ -17,11 +17,11 @@ class Certificate extends Model
     {
 
         if ($type=='mbsr')
-            $image='storage/mbsr-imi.png';
+            $image='storage/mbsr.png';
         elseif ($type=='711')
-            $image='storage/711-imi.png';
+            $image='storage/711.png';
         elseif ($type=='1218')
-            $image='storage/1218-imi.png';
+            $image='storage/1218.png';
         else
             return view('error');
 
